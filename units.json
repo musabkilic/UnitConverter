@@ -1,0 +1,134 @@
+{
+  "Length":
+    {
+      "base": "meter",
+      "units": {
+        "meter": "1",
+        "mile": "0.000621371",
+        "yard": "1.09361296",
+        "foot": "3.2808388799999997",
+        "feet": "3.2808388799999997",
+        "inch": "39.370066559999997935",
+        "natuical mile": "0.00053995663640604750835"
+      }
+    },
+  "Time":
+    {
+      "base": "second",
+      "units": {
+        "second": "1",
+        "minute": "1/60",
+        "hour": "1/3600",
+        "day": "1/86400",
+        "week": "1/604800",
+        "month": "1/2.628e+6"
+      }
+    },
+  "Mass":
+    {
+      "base": "gram",
+      "units": {
+        "gram": "1",
+        "tonne": "1/1e+6",
+        "imperial ton": "1/1.016e+6",
+        "US ton": "1/907185",
+        "stone": "0.000157473",
+        "pound": "0.00220462",
+        "ounce": "0.035274"
+      }
+    },
+  "Energy":
+    {
+      "base": "joule",
+      "units": {
+        "joule": "1",
+        "calorie": "1/4.184"
+      }
+    },
+  "Pressure":
+    {
+      "base": "pascal",
+      "units": {
+        "pascal": "1",
+        "bar": "1e-5",
+        "atm": "1/101325",
+        "torr": "1/133"
+      }
+    },
+  "Frequency":
+    {
+      "base": "hertz",
+      "units": {
+        "hertz": "1"
+      }
+    },
+  "Angle":
+    {
+      "base": "degree",
+      "units": {
+        "degree": "1",
+        "radian": "0.0174533"
+      }
+    },
+  "Volume":
+    {
+      "base": "litre",
+      "units": {
+        "litre": "1",
+        "gallon": "0.219969",
+        "quart": "0.879876",
+        "pint": "1.75975",
+        "cup": "3.51950030971673",
+        "fluid ounce": "35.19500000043994703",
+        "tablespoon": "56.311976733144966545",
+        "teaspoon": "168.93593018992174848"
+      }
+    },
+  "Luminous Intensity":
+    {
+      "base": "candela",
+      "units": {
+        "candela": "1",
+        "candle": "1",
+        "carcel": "9.74"
+      }
+    },
+  "Electric Current":
+    {
+      "base": "ampere",
+      "units": {
+        "ampere": "1",
+        "abampere": "10",
+        "biot": "10"
+      }
+    },
+  "Radioactivity":
+    {
+      "base": "becquerel",
+      "units": {
+        "becquerel": "1",
+        "curie": "3.7E+10",
+        "rutherford": "1E+6"
+      }
+    },
+  "Illuminance":
+    {
+      "base": "lux",
+      "units": {
+        "lux": "1",
+        "foot-candle": "10.746",
+        "meter-candle": "1",
+        "nox": "0.001",
+        "phot": "10000"
+      }
+    },
+  "Electric Potential":
+   {
+     "base": "volt",
+     "units": {
+       "volt": "1",
+       "abvolt": "1E-8",
+       "statvolt": "299.792458"
+     }
+   }
+}
