@@ -2,22 +2,34 @@
   "Length":
     {
       "base": "meter",
+      "complex": {
+        "m": 1
+      },
       "units": {
+        "m": "1",
         "meter": "1",
+        "meters": "1",
         "mile": "0.000621371",
         "yard": "1.09361296",
         "foot": "3.2808388799999997",
         "feet": "3.2808388799999997",
         "inch": "39.370066559999997935",
+        "inches": "39.370066559999997935",
         "natuical mile": "0.00053995663640604750835"
       }
     },
   "Time":
     {
       "base": "second",
+      "complex": {
+        "s": 1
+      },
       "units": {
+        "s": "1",
         "second": "1",
+        "seconds": "1",
         "minute": "1/60",
+        "h": "1/3600",
         "hour": "1/3600",
         "day": "1/86400",
         "week": "1/604800",
@@ -26,29 +38,60 @@
     },
   "Mass":
     {
-      "base": "gram",
+      "base": "kilogram",
+      "complex": {
+        "kg": 1
+      },
       "units": {
-        "gram": "1",
-        "tonne": "1/1e+6",
-        "imperial ton": "1/1.016e+6",
-        "US ton": "1/907185",
-        "stone": "0.000157473",
-        "pound": "0.00220462",
-        "ounce": "0.035274"
+        "kg": "1",
+        "kilogram": "1",
+        "grams": "1000",
+        "tonne": "0.001",
+        "imperial ton": "1/1016",
+        "US ton": "1/907",
+        "stone": "0.157473119999996608",
+        "pound": "2.204623679999952568",
+        "ounce": "35.273978879999241087"
       }
     },
   "Energy":
     {
       "base": "joule",
+      "complex": {
+        "kg": 1,
+        "m": 2,
+        "s": -2
+      },
       "units": {
+        "J": "1",
         "joule": "1",
         "calorie": "1/4.184"
+      }
+    },
+  "Power":
+    {
+      "base": "watt",
+      "complex": {
+        "kg": 1,
+        "m": 2,
+        "s": -3
+      },
+      "units": {
+        "W": "1",
+        "watt": "1",
+        "horsepower": "735.49875"
       }
     },
   "Pressure":
     {
       "base": "pascal",
+      "complex": {
+        "kg": 1,
+        "m": -1,
+        "s": -2
+      },
       "units": {
+        "Pa": "1",
         "pascal": "1",
         "bar": "1e-5",
         "atm": "1/101325",
@@ -58,6 +101,9 @@
   "Frequency":
     {
       "base": "hertz",
+      "complex": {
+        "s": -1
+      },
       "units": {
         "hertz": "1"
       }
@@ -65,6 +111,9 @@
   "Angle":
     {
       "base": "degree",
+      "complex": {
+        "ANGLE": 1
+      },
       "units": {
         "degree": "1",
         "radian": "0.0174533"
@@ -72,22 +121,29 @@
     },
   "Volume":
     {
-      "base": "litre",
+      "base": "cubic meter",
+      "complex": {
+        "m": 3
+      },
       "units": {
-        "litre": "1",
-        "gallon": "0.219969",
-        "quart": "0.879876",
-        "pint": "1.75975",
-        "cup": "3.51950030971673",
-        "fluid ounce": "35.19500000043994703",
-        "tablespoon": "56.311976733144966545",
-        "teaspoon": "168.93593018992174848"
+        "litre": "1000",
+        "gallon": "219.969",
+        "quart": "879.876",
+        "pint": "1759.75",
+        "cup": "3519.50030971673",
+        "fluid ounce": "35195.00000043994703",
+        "tablespoon": "56311.976733144966545",
+        "teaspoon": "168935.93018992174848"
       }
     },
   "Luminous Intensity":
     {
       "base": "candela",
+      "complex": {
+        "cd": 1
+      },
       "units": {
+        "cd": "1",
         "candela": "1",
         "candle": "1",
         "carcel": "9.74"
@@ -96,15 +152,34 @@
   "Electric Current":
     {
       "base": "ampere",
+      "complex": {
+        "A": 1
+      },
       "units": {
+        "A": "1",
         "ampere": "1",
         "abampere": "10",
         "biot": "10"
       }
     },
+  "Electric Charge":
+    {
+      "base": "coulomb",
+      "complex": {
+        "s": 1,
+        "A": 1
+      },
+      "units": {
+        "coulomb": "1",
+        "C": "1"
+      }
+    },
   "Radioactivity":
     {
       "base": "becquerel",
+      "complex": {
+        "s": -1
+      },
       "units": {
         "becquerel": "1",
         "curie": "3.7E+10",
@@ -114,6 +189,10 @@
   "Illuminance":
     {
       "base": "lux",
+      "complex": {
+        "m": -2,
+        "cd": 1
+      },
       "units": {
         "lux": "1",
         "foot-candle": "10.746",
@@ -125,6 +204,12 @@
   "Electric Potential":
    {
      "base": "volt",
+     "complex": {
+       "kg": 1,
+       "m": 2,
+       "s": -3,
+       "A": -1
+     },
      "units": {
        "volt": "1",
        "abvolt": "1E-8",
